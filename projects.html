@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: url("../img/project2.jpg") no-repeat center center/cover;
+            color: #fff;
+        }
+
+         header {
+           background: rgba(255, 255, 255, 0.3);
+            color:#c4d4ee ;
+            padding: 8px 0;
+            text-align: center;
+			word-spacing: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+      
+        main {
+            flex: 1;
+            display: inherit;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .content-container {
+            display: inherit;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            width: 500%;
+            max-width: 600px;
+			margin-right: 10px;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 50px;
+		    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            display: inherit;
+            align-items: center;
+			gap: 20px;
+            flex-direction: row;
+            color: #000; /* Change text color to black for better contrast */
+            
+        }
+
+        .image-container {
+            width: 100%;
+            overflow-x: auto; /* Enable horizontal scrolling */
+        }
+
+        .image-container img {
+            max-width: none; /* Prevent image from resizing */
+        }
+
+        .text-content {
+            text-align: left;
+        }
+
+        .text-content h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background: none ;
+            color: #c4d4ee;
+            text-align: center;
+            padding: 3px 0;
+        }
+
+        a {
+            color: #C4D4EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY PROJECTS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content-container">
+            <div class="content">
+                <div class="image-container">
+                   <img src= "../img/Screenshot 2024-07-09 175116.png" height="150" width="250" alt="Project 1 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Project 1</h2>
+                    <p>My Mashup Music video.This MV theme is emo</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image-container">
+                    <img src= "../img/Screenshot 2024-03-31 010533.png" height="150" width="250" alt="Project 2 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Project 2</h2>
+                    <p>Animated explainer video about MC112 rebranding from MC111</p>
+                </div>
+            </div> </div>  
+			
+            <div class="content">
+                <div class="image-container">
+                   <img src= "../img/Screenshot 2024-07-09 175419.png" height="150" width="230" alt="Project 3 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Project 3</h2>
+                    <p>My Short Film .This short film theme is horror</p>
+                </div>
+				
+              
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2024 lnvlyns</p>
+    </footer>
+</body>
+</html>

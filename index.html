@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+    <style>
+		    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 0.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+			background: url("../img/Untitled design (5).jpg") no-repeat center center/cover;
+        }
+
+        header {
+            background: url(../img/1600w-6eZ2gOEA6Rs.webp) no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3cm; /* 3cm gap */
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: auto; /* Adjust width to auto */
+            height: auto; /* Adjust height to auto */
+        }
+
+        nav .nav-button {
+            background: #CADBF3;
+            width: calc(100px + 2cm); /* Increase width by 2cm */
+            height: calc(100px + 2cm); /* Increase height by 2cm */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.4s;
+            font-size: 1.5rem;
+            padding: 0; /* Remove default padding */
+			 font-family: 'JetBrains Mono', monospace;
+        }
+
+        nav .nav-button:hover {
+            background: #ddd;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background: none;
+            color: #C4D4EE;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="about.html" class="nav-button">About</a></li>
+            <li><a href="projects.html" class="nav-button">Projects</a></li>
+            <li><a href="skills.html" class="nav-button">Skills</a></li>
+            <li><a href="contact.html" class="nav-button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 lnvlyns </p>
+    </footer>
+</body>
+</html>

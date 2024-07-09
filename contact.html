@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+		
+		body {
+			font-family: 'JetBrains Mono', monospace;
+			margin: 0;
+			padding: 0;
+			background: url("../img/contact.jpg") no-repeat center center/cover;
+		}
+		
+		header {
+           background: rgba(255, 255, 255, 0.3);
+            color:#c4d4ee ;
+            padding: 8px 0;
+            text-align: center;
+			word-spacing: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        
+		}
+		
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+		
+		.contact-info {
+			width: 40%;
+			margin: 20px;
+			border-radius: 20px;
+			padding: 20px;
+		    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.contact-form {
+			width: 40%;
+			margin: 20px;
+			border-radius: 20px;
+			padding: 20px;
+			 background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input, textarea {
+			width: 80%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #444;
+		}
+		
+		footer {
+			background-color: none;
+			color: #c4d4ee ;
+			padding: 10px;
+			text-align: center;
+			clear: both;
+		}
+		  a {
+            color: #C4D4EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>CONTACT US</h1>
+		 <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+			<a href="skills.html">Skills</a>
+        </nav>
+	</header>
+	<main>
+		<section class="contact-info">
+			<h2>Get in Touch</h2>
+			<p>Phone: +6010-264-0729</p>
+			<p>Email: <a href="ainashakirah29@gmail.com">ainashakirah29@gmail.com</a></p>
+			<p>Address: 14, Jalan Nova u5/77a , Subang Bestari, 40150, Shah Alam, Selangor</p>
+		</section>
+		<section class="contact-form">
+			<h2>Send Us a Message</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy;2024 lnvlyns</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            line-height: 1.1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: url("../img/about new.jpg") no-repeat center center/cover;
+            color: #fff;
+        }
+
+        header {
+           background: rgba(255, 255, 255, 0.3);
+            color: #c4d4ee;
+            padding: 20px 0;
+            text-align: center;
+			word-spacing: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+		 .content-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.2);
+			color: #C4D4EE;
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            max-width: 900px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .content img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .text-content {
+            text-align: left;
+        }
+
+        .text-content h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background: none;
+            color: #C4D4EE;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        a {
+            color: #C4D4EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABOUT ME</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+		<div class="content-container">
+        <div class="content">
+            <img src="../img/IMG_3210.jpg" alt="Profile Picture">
+            <div class="text-content">
+                <h2>Hello! I'm Aina</h2>
+                <p>Welcome to my portfolio. I'm a Editor, passionate about editing and designing.</p>
+                <p>I have experience in creating companies logo and filming short animated explainer video, and I love working on projects that involve to be in teams because from that you will gain much more ideas for editing from each others.</p>
+                <p>Feel free to check out my <a href="projects.html">projects</a>, learn about my <a href="skills.html">skills</a>, or <a href="contact.html">get in touch</a> with me.</p>
+            </div>			
+        </div>
+		 <div class="content">
+                <div class="text-content">
+                    <h2>More About Me</h2>
+                    <p>I'm a eldest daughter from 5 siblings.My hobbies are taking picture of scenery or filming video because i felt peace from doing that kind of stuffs.</p>
+                    <p>I'm also good at playing mobile games such as Mobile Legend and PUBG.My comfort food are sushi and ramen obviously.</p>
+                    
+                </div>
+            </div>
+		</div>
+    </main>
+
+    <footer>
+        <p>&copy;2024 lnvlyns</p>
+    </footer>
+</body>
+</html>

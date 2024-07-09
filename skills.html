@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: url("../img/skills 2.jpg") no-repeat center center/cover;
+            color: #fff;
+        }
+
+     
+         header {
+           background: rgba(255, 255, 255, 0.3);
+            color:#c4d4ee ;
+            padding: 8px 0;
+            text-align: center;
+			word-spacing: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+     
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .content-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: #000; /* Change text color to black for better contrast */
+        }
+
+        .image-container {
+            width: 30%;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 10px;
+			align-content: center;
+        }
+
+        .image-container img {
+            width: 80%;
+            height: auto;
+            display: block;
+        }
+
+        .text-content {
+            text-align: left;
+        }
+
+        .text-content h2 {
+            margin-top: 0;
+	
+        }
+
+        footer {
+            background: none;
+            color: #c4d4ee;
+            text-align: center;
+            padding: 10px 0;
+        }
+		h2 {text-align:  center;
+			margin-right: 6px;
+		}
+		p1 {text-align: center;
+			margin-right: 
+		}
+
+        a {
+            color: #C4D4EE;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY SKILLS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content-container">
+            <div class="content">
+                <div class="image-container">
+                    <img src="../img/ai.png" height="50px" width="30px" alt="Skill 1 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Adobe Illustrator</h2>
+                    <p>- Intermediate</p>
+					<a href="../img/studio house.png">- Example</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image-container">
+                    <img src="../img/afeter.png" alt="Skill 2 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Adobe After Effects</h2>
+                    <p>- Beginner</p>
+					<a href="../img/ikln new - COMPRESS (1).mp4">- Example</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image-container">
+                    <img src="../img/ps.png" alt="Skill 3 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Adobe Photoshop</h2>
+                    <p>- Advanced </p>
+					<a href="../img/NUR AINA SHAKIRAH_2023801896_MC1121C.png">- Example</a>
+					
+                </div>
+            </div>
+            <div class="content">
+                <div class="image-container">
+                    <img src="../img/adobe-dreamweaver-logo.svg"  alt="Skill 4 Image">
+                </div>
+                <div class="text-content">
+                    <h2>Adobe Dreamweaver</h2>
+                    <p>- Advanced</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2024 lnvlyns</p>
+    </footer>
+</body>
+</html>
